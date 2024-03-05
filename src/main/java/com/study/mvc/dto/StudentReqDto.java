@@ -9,8 +9,8 @@ public class StudentReqDto {
     private String phone;
     private String address;
 
-    public StudentResDto toRespDto() {
-        return StudentResDto.builder()
+    public StudentRespDto toRespDto() {
+        return StudentRespDto.builder()
                 .name(name)
                 .age(age)
                 .phone(phone)
