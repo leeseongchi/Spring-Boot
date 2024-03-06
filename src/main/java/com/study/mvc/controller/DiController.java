@@ -12,9 +12,7 @@ import java.util.Map;
 public class DiController {
 
     /**
-     *
-     *  DI(Dependency Injection) - 의존성 주입
-     *
+     *   DI(Dependency Injection) - 의존성 주입
      */
 
     @GetMapping("/di")
